@@ -3,7 +3,6 @@ language: generic
 dist: focal
 
 vm:
-  use:
-    name: existing-custom-image
+  use: existing-custom-image
   create:
-    name: new-one-image
+    name: new-one-image2
