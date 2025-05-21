@@ -1,7 +1,2 @@
-# os: linux
-# language: generic
-# dist: focal
-
 vm:
-  use: 
-    name: existing-custom-image
+  use: existing-custom-image
