@@ -4,7 +4,7 @@ dist: focal
 
 vm:
   create:
-    name: test-large
+    name: test-x-large
   size: x-large
 
 script:
