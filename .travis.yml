@@ -1,6 +1,5 @@
 vm:
-  use:
-    name: existing-custom-image
+  use: existing-custom-image
 
 script:
   - echo "Checking if custom file exists"
