@@ -1,8 +1,9 @@
-os: linux
-language: generic
-dist: focal
+os: windows
 
 vm:
-  use: existing-custom-image
-  create:
-    name: new-one-image3
+  use:
+    name: existing-custom-image
+
+script:
+  - echo "Checking if custom file exists"
+  - sudo cat /my-custom-dir/my_custom_file.txt
