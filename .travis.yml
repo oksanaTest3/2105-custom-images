@@ -1,8 +1,6 @@
-os: linux
-language: generic
-dist: focal
+# os: linux
+# language: generic
+# dist: focal
 
 vm:
   use: existing-custom-image
-  create:
-    name: new-one-image2
