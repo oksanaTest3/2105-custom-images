@@ -1,12 +1,7 @@
-os: linux
-language: generic
-dist: focal
-
 vm:
-  create:
+  use:
     name: ok-image
 
 script:
-  - sudo mkdir /my-custom-dir
-  - echo "Test custom image!" | sudo tee /my-custom-dir/my_custom_file.txt
+  - echo "Checking if custom file exists"
   - sudo cat /my-custom-dir/my_custom_file.txt
