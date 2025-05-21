@@ -1,2 +1,2 @@
 vm:
-  use: existing-custom-image
+  use: new-one-image3
