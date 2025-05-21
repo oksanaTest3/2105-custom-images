@@ -4,7 +4,7 @@ language: generic
 
 vm:
   use:
-    name: existing-custom-image
+    name:
 
 script:
   - echo "Checking if custom file exists"
