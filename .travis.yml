@@ -8,9 +8,9 @@ jobs:
       name: "Create custom image"
       vm:
         create:
-          name: new-custom-image4
+          name: cust-image-1605
     - stage: "Tests"
       name: "Create unique custom image"
       vm:
         create:
-          name: job-unique-2105
+          name: job-unique
