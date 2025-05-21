@@ -3,4 +3,5 @@
 # dist: focal
 
 vm:
-  use: existing-custom-image
+  use: 
+    name: existing-custom-image
