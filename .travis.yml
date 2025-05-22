@@ -1,16 +1,9 @@
-os: linux
-language: generic
-dist: focal
-
 jobs:
   include:
-    - stage: "Tests"
-      name: "Create custom image"
+    - stage: "Create custom image"
+      os: linux
+      language: generic
+      dist: focal
       vm:
         create:
           name: cust-image-1605
-    - stage: "Tests"
-      name: "Create unique custom image"
-      vm:
-        create:
-          name: job-unique
