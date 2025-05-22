@@ -6,4 +6,4 @@ jobs:
       dist: focal
       vm:
         create:
-          name: cust-image-1605
+          name: cust-image
